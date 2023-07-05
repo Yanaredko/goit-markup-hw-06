@@ -893,7 +893,7 @@ row-gap: 48px;
 .modal-form-agreement-checkbox:checked+.modal-form-agreement .agreement-icon {
     background-color: var(--link-color-change);
     border: none;
-    fill: var(--link-color-change);
+    fill: var(--background-color-cloud);
 }
 
 .modal-form-agreement-desc {
