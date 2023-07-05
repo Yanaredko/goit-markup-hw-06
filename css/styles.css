@@ -558,7 +558,7 @@ fill: var(--background-color-cloud);
 
 .footer-subscribe-wrapper {
     display:block;
-    padding: 80px;
+    margin-left: 80px;
 }
 
 .footer-subscribe-text {
@@ -864,6 +864,7 @@ row-gap: 48px;
 
 .modal-form-three {
     margin-bottom: 24px;
+    
 }
 
 .modal-form-agreement {
@@ -871,6 +872,8 @@ row-gap: 48px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--lightslate);
+
+    
 }
 
 .agreement-icon {
@@ -886,9 +889,10 @@ row-gap: 48px;
     fill: transparent;
 }
 
-.modal-form-custom-checkbox {
-
+.modal-form-agreement-checkbox {
+   
 }
+
 
 .modal-form-agreement-checkbox:checked+.modal-form-agreement .agreement-icon {
     background-color: var(--link-color-change);
